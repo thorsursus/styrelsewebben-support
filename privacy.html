@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styrelsewebben — Integritetspolicy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg: #f8f7f4;
+            --text: #1a1a1a;
+            --muted: #6b6b6b;
+            --accent: #0078d4;
+            --accent-soft: #e8f2fc;
+            --card-bg: #ffffff;
+            --border: #e4e2dd;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.65;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 24px;
+            width: 100%;
+        }
+
+        header {
+            padding: 48px 0 0;
+            text-align: center;
+        }
+
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .app-icon svg {
+            width: 40px;
+            height: 40px;
+            fill: white;
+        }
+
+        h1 {
+            font-family: 'Instrument Serif', serif;
+            font-size: 2.4rem;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            margin-bottom: 6px;
+        }
+
+        .subtitle {
+            color: var(--muted);
+            font-size: 1.05rem;
+            font-weight: 300;
+        }
+
+        nav {
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+            padding: 32px 0;
+            font-size: 0.9rem;
+        }
+
+        nav a {
+            color: var(--muted);
+            text-decoration: none;
+            padding-bottom: 2px;
+            border-bottom: 1px solid transparent;
+            transition: all 0.2s;
+        }
+
+        nav a:hover,
+        nav a.active {
+            color: var(--text);
+            border-bottom-color: var(--text);
+        }
+
+        main {
+            flex: 1;
+            padding-bottom: 80px;
+        }
+
+        .section {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 32px;
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            font-family: 'Instrument Serif', serif;
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 12px;
+        }
+
+        .section h3 {
+            font-size: 1rem;
+            font-weight: 500;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+
+        .section h3:first-of-type {
+            margin-top: 0;
+        }
+
+        .section p {
+            color: var(--muted);
+            font-size: 0.95rem;
+            margin-bottom: 12px;
+        }
+
+        .section p:last-child {
+            margin-bottom: 0;
+        }
+
+        .section ul {
+            color: var(--muted);
+            font-size: 0.95rem;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        .section ul li {
+            margin-bottom: 6px;
+        }
+
+        .effective-date {
+            color: var(--muted);
+            font-size: 0.85rem;
+            font-style: italic;
+            margin-bottom: 16px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 32px 0;
+            color: var(--muted);
+            font-size: 0.8rem;
+            border-top: 1px solid var(--border);
+        }
+
+        footer a {
+            color: var(--muted);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--text);
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .section {
+                padding: 24px;
+            }
+
+            header {
+                padding: 32px 0 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="app-icon">
+                <img src="app-icon.png" alt="Styrelsewebben" style="width: 80px; height: 80px; border-radius: 18px;">
+            </div>
+            <h1>Styrelsewebben</h1>
+            <p class="subtitle">Integritetspolicy</p>
+        </div>
+    </header>
+
+    <nav class="container">
+        <a href="index.html">Support</a>
+        <a href="privacy.html" class="active">Integritetspolicy</a>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="section">
+                <p class="effective-date">Gäller från och med: 16 mars 2026</p>
+
+                <h3>Översikt</h3>
+                <p>Styrelsewebben ("appen") är en app för styrelser och organisationer som har ett konto på <code>styrelse.pratamedoss.se</code>. Appen används för att hantera styrelsearbete, till exempel möten, beslut, uppgifter, dokument, kontakter, intern kommunikation, kalender, e-post och AI-stöd.</p>
+                <p>Vi värnar om din integritet. Den här policyn beskriver vilka uppgifter appen behandlar, hur de används och hur de skyddas.</p>
+
+                <h3>Data vi samlar in</h3>
+                <p>Styrelsewebben behandlar personuppgifter och annan organisationsdata som behövs för att tjänsten ska fungera. Det kan till exempel vara:</p>
+                <ul>
+                    <li>namn, e-postadress, profilbild, roll och kontaktuppgifter</li>
+                    <li>uppgifter om styrelser, medlemskap och behörigheter</li>
+                    <li>mötesdata, protokoll, beslut, uppgifter och kommentarer</li>
+                    <li>dokument, mappar, bilagor och filmetadata</li>
+                    <li>chattmeddelanden och annan kommunikation i appen</li>
+                    <li>kalender- och e-postdata när Microsoft 365-funktioner används</li>
+                    <li>innehåll som du skickar till AI-assistenten samt relevant styrelsedata som behövs för att generera svar</li>
+                </ul>
+                <p>Vi samlar inte in mer data än vad som krävs för att leverera appens funktioner.</p>
+
+                <h3>Autentisering</h3>
+                <p>När du loggar in i appen använder du din e-postadress och ditt lösenord mot vår autentiseringstjänst via Supabase. Inloggningsuppgifterna behandlas för att verifiera din identitet och skapa en lokal session på din enhet.</p>
+                <p>Appen lagrar inte ditt lösenord i klartext. En sessionsinformation lagras lokalt så att du kan förbli inloggad mellan användningstillfällen. Vid utloggning rensas den aktiva sessionen från appens lokala lagring.</p>
+
+                <h3>Data som appen får tillgång till</h3>
+                <p>För att fungera behöver appen läsa och i vissa fall skriva data som hör till din organisation och ditt användarkonto. Det omfattar bland annat:</p>
+                <ul>
+                    <li>din profilinformation och dina styrelsemedlemskap</li>
+                    <li>styrelsens möten, dagordningar, protokoll, beslut och uppgifter</li>
+                    <li>dokument, mappar, filnamn, filstorlekar, filinnehåll och lagringsreferenser</li>
+                    <li>kontaktuppgifter och interna/externa kontaktlistor</li>
+                    <li>styrelsechatt och privata chattar inom tjänsten</li>
+                    <li>e-postmeddelanden, bilagor och kalenderhändelser när Microsoft 365 är aktiverat för den aktuella styrelsen</li>
+                    <li>frågor och svar i AI-assistenten, samt det underlag som krävs för att ge relevanta svar</li>
+                </ul>
+                <p>Kommunikation sker över krypterade anslutningar. Data behandlas via appen, vår backend i Supabase, samt de integrationer som organisationen har aktiverat.</p>
+
+                <h3>Lokal lagring</h3>
+                <p>Appen lagrar viss information lokalt på din enhet för att förbättra användarupplevelsen och få tjänsten att fungera korrekt. Det kan omfatta:</p>
+                <ul>
+                    <li>lokal sessionsinformation för inloggning</li>
+                    <li>vald styrelse</li>
+                    <li>val av startsidebakgrund</li>
+                    <li>om demo-läge är aktiverat</li>
+                    <li>tillfälligt nedladdade filer och bilagor</li>
+                </ul>
+                <p>Denna lagring sker med vanliga mekanismer i Apple-plattformarna, såsom <code>UserDefaults</code>, appens lokala sessionslagring och tillfälliga filer. Sessionsdata tas bort vid utloggning. Tillfälliga filer kan ligga kvar tills de rensas av appen eller operativsystemet.</p>
+
+                <h3>Analys och spårning</h3>
+                <p>Styrelsewebben använder för närvarande inte annonsering eller tredjepartsspårning för marknadsföring. Appen innehåller inte någon separat analys- eller telemetritjänst för användarbeteende utöver den behandling som krävs för att själva tjänsten ska fungera, säkras och levereras.</p>
+
+                <h3>Tredjepartstjänster</h3>
+                <p>Appen använder tredjepartstjänster där det behövs för att leverera funktionerna:</p>
+                <ul>
+                    <li><strong>Supabase</strong> för autentisering, databas, fillagring och backend-funktioner</li>
+                    <li><strong>Microsoft 365 / Microsoft Graph</strong> för e-post och kalender när dessa funktioner är aktiverade för organisationen</li>
+                    <li><strong>AI-tjänster via vår backend</strong> när AI-assistenten används</li>
+                </ul>
+                <p>Dessa leverantörer behandlar data enligt sina egna villkor och personuppgiftspolicys i den utsträckning det krävs för att tillhandahålla funktionerna.</p>
+
+                <h3>Barns integritet</h3>
+                <p>Appen är inte riktad till barn. Tjänsten är avsedd för organisationer, styrelser och vuxna användare i professionella eller ideella sammanhang. Vi samlar inte medvetet in personuppgifter från barn.</p>
+
+                <h3>Ändringar i denna policy</h3>
+                <p>Om vi uppdaterar denna integritetspolicy publicerar vi den nya versionen med ett uppdaterat datum för ikraftträdande.</p>
+
+                <h3>Kontakt</h3>
+                <p>Om du har frågor om denna integritetspolicy, eller vill begära rättelse eller radering av uppgifter kopplade till ditt konto eller din organisation, kan du kontakta oss på <a
+                        href="mailto:thorsursus@icloud.com" style="color: var(--accent);">thorsursus@icloud.com</a>.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Styrelsewebben &middot; <a href="privacy.html">Integritetspolicy</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
